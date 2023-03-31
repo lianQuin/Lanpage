@@ -1,0 +1,82 @@
+
+/* ---- particles.js container ---- */
+#particles-js {
+position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-position: 100% 100%;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+    background: #9191c7;
+    position: absolute;
+   /* top: 78px;
+    left: 0;
+    width: 80px;*/
+    color: #9cb1b1;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+/*#stats,
+.count-particles {
+   -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}*/
+    
+.contenedorimg{
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        margin: 20px;
+        
+}
+#htmlimg{
+        width: 150px;
+        height: 150px;
+        transition: 0.5s;
+        object-fit: cover;
+    
+}
+#htmlimg:hover{
+        transform:scale(1.2);
+}
+    
+.containerCursos{
+        background: linear-gradient(90deg,#38383d,#cef7f7);
+        border: solid rgb(122, 91, 150);
+        width: 600px;
+        height: 380px;
+       display: flex;
+        flex-wrap: wrap;
+}
+    
+.containerMenu{    
+        background: linear-gradient(90deg,#38383d,#cef7f7);
+        display: flex;
+       align-content: center;
+       justify-content: center;
+       
+        
+}
