@@ -1,4 +1,6 @@
-
+body{
+    background: linear-gradient(90deg,#38383d,#cef7f7);
+}
 /* ---- particles.js container ---- */
 #particles-js {
 position: absolute;
@@ -10,11 +12,9 @@ position: absolute;
 
 /* ---- stats.js ---- */
 .count-particles {
-    background: #9191c7;
+
     position: absolute;
-   /* top: 78px;
-    left: 0;
-    width: 80px;*/
+   
     color: #9cb1b1;
     font-size: .8em;
     text-align: left;
@@ -27,23 +27,8 @@ position: absolute;
 
 .js-count-particles {
     font-size: 1.1em;
-}
 
-/*#stats,
-.count-particles {
-   -webkit-user-select: none;
-    margin-top: 5px;
-    margin-left: 5px;
 }
-
-#stats {
-    border-radius: 3px 3px 0 0;
-    overflow: hidden;
-}
-
-.count-particles {
-    border-radius: 0 0 3px 3px;
-}*/
     
 .contenedorimg{
         width: 150px;
@@ -65,7 +50,7 @@ position: absolute;
     
 .containerCursos{
         background: linear-gradient(90deg,#38383d,#cef7f7);
-        border: solid rgb(122, 91, 150);
+
         width: 600px;
         height: 380px;
        display: flex;
