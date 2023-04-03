@@ -18,8 +18,8 @@ body{
     align-content: center;
     flex-wrap: wrap;
 }
-.data{ width: 500px;
-    height: 400px;
+.data{ width: 300px;
+    height: 500px;
     float: left;
     
 
@@ -34,5 +34,7 @@ body{
     padding: 15px;
     margin: flex;
 }
- 
+ @media screen {
+    
+ }
 
