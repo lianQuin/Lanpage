@@ -65,3 +65,7 @@ position: absolute;
        
         
 }
+.cajaDeGoogle{
+        display: flex;
+        justify-content: center;
+}
