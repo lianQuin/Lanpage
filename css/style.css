@@ -57,7 +57,7 @@ body {
 .containerHeader{
 
     height: 100vh;
-    background-color: #5a6b6b;
+    background-color: #5a5b6b;
     background: linear-gradient(90deg,#38383d,#cef7f7);
     display: flex;
     align-items: center;
