@@ -6,6 +6,33 @@
     width: 300px;
     height: 290px;
 }
+.containernavh1Logo{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #0E8388;
+}
+
+.navegation{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+a{
+    color:#CBE4DE;;
+}
+
+.containerH1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: #2C3333;
+}
+
+.containerLogo{
+    width: 25%;
+}
 
 #imghtml{
     width: 100px;
@@ -32,5 +59,9 @@ button{
 h1{
     text-align: center;
 }
-
+footer{
+    text-align: center;
+    margin-top: 30px;
+    background-color:#0E8388;
+}
 
