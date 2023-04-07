@@ -36,6 +36,8 @@ a{
         color: #2C3333;
         display: flex;
         justify-content: center;
+        font-size: 1.5 rem;
+        line-height: 1.6 em;margin: 0;
 
 }
     
