@@ -1,5 +1,7 @@
-body{
-    background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
+/* ---- reset ---- */
+body {
+    margin: 2%;
+    font: normal 75% Arial, Helvetica, sans-serif;
 }
 .containernavh1Logo{
     display:flex;
@@ -77,6 +79,6 @@ main{
 
 footer{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 100px;
     background-color:#0E8388;
 }
