@@ -1,0 +1,7 @@
+Bienvenidos al curso Aprende Python de Academia Tech. En este curso, aprenderás los fundamentos del lenguaje de programación Python, y cómo utilizarlo para crear aplicaciones de software. Python es un lenguaje de programación interpretado y fácil de aprender que se utiliza en una amplia variedad de aplicaciones de software, desde análisis de datos hasta inteligencia artificial.
+
+A lo largo del curso, te enseñaremos cómo trabajar con variables, operadores, estructuras de control, funciones y clases de Python. También te mostraremos cómo utilizar las bibliotecas de Python y cómo escribir código para resolver problemas reales. El curso está diseñado para principiantes y no se requiere experiencia previa en programación.
+
+Los materiales del curso incluyen videos tutoriales, ejercicios prácticos y proyectos que te permitirán aplicar lo que has aprendido. Al final del curso, tendrás las habilidades necesarias para crear aplicaciones de software básicas utilizando Python.
+
+Nuestro equipo de instructores son profesionales experimentados en el desarrollo de software y te guiarán a lo largo de todo el curso, ayudándote en cualquier duda que puedas tener. Además, tendrás acceso a nuestra comunidad en línea de estudiantes de Python, donde podrás interactuar con otros estudiantes y compartir tus proyectos. ¡Regístrate ahora y comienza a aprender con Academia Tech!

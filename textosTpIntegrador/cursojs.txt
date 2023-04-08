@@ -1,0 +1,7 @@
+Bienvenidos al curso de JavaScript para principiantes de Academia Tech. En este curso, aprenderás los fundamentos del lenguaje de programación JavaScript, y cómo utilizarlo para crear sitios web interactivos. JavaScript es un lenguaje de programación que se utiliza para crear efectos visuales y de animación, validar formularios, agregar interactividad y mucho más.
+
+A lo largo del curso, te enseñaremos cómo trabajar con variables, funciones, operadores, estructuras de control y eventos de JavaScript. También te mostraremos cómo utilizar bibliotecas de JavaScript, como jQuery, para hacer que tu código sea más eficiente y fácil de escribir. El curso está diseñado para principiantes y no se requiere experiencia previa en programación.
+
+Los materiales del curso incluyen videos tutoriales, ejercicios prácticos y proyectos que te permitirán aplicar lo que has aprendido. Al final del curso, tendrás las habilidades necesarias para crear aplicaciones web interactivas utilizando JavaScript.
+
+Nuestro equipo de instructores son profesionales experimentados en el desarrollo web y te guiarán a lo largo de todo el curso, ayudándote en cualquier duda que puedas tener. ¡Regístrate ahora y comienza a aprender con Academia Tech!

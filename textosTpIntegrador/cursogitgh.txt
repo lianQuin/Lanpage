@@ -1,0 +1,7 @@
+Bienvenidos al curso de Git/GitHub desde cero de Academia Tech. En este curso, aprenderás a utilizar el sistema de control de versiones Git y la plataforma de alojamiento de código GitHub. Git es una herramienta esencial para cualquier desarrollador de software, ya que te permite controlar el historial de cambios en tu código. GitHub es una plataforma de alojamiento de código que te permite compartir tu código con otros desarrolladores y colaborar en proyectos de software.
+
+A lo largo del curso, te enseñaremos cómo utilizar Git para gestionar tu código y cómo utilizar GitHub para compartir tu código y colaborar en proyectos. Aprenderás cómo clonar un repositorio, crear ramas y fusionar cambios, y cómo utilizar las herramientas de GitHub para gestionar problemas y solicitudes de extracción.
+
+El curso está diseñado para principiantes y no se requiere experiencia previa en el uso de Git o GitHub. Los materiales del curso incluyen videos tutoriales, ejercicios prácticos y proyectos que te permitirán aplicar lo que has aprendido. Al final del curso, tendrás las habilidades necesarias para utilizar Git y GitHub en tus proyectos de software.
+
+Nuestro equipo de instructores son profesionales experimentados en el desarrollo de software y te guiarán a lo largo de todo el curso, ayudándote en cualquier duda que puedas tener. Además, tendrás acceso a nuestra comunidad en línea de estudiantes de Git/GitHub, donde podrás interactuar con otros estudiantes y compartir tus proyectos. ¡Regístrate ahora y comienza a aprender con Academia Tech!
