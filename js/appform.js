@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 function validar(){
+=======
+ function validar(){
+>>>>>>> main
 let nombre, apellido, telefono, email, expresion;
 nombre = document.getElementById("nombre").value;
 apellido = document.getElementById("apellido").value;
