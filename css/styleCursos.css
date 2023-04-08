@@ -52,7 +52,7 @@ a{
         width: 150px;
         height: 150px;
         transition: 0.5s;
-        object-fit: cover;
+        object-fit: contain;
     
 }
 #htmlimg:hover{
