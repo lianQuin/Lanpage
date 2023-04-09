@@ -3,6 +3,19 @@ body {
     margin: 2%;
     font: normal 75% Arial, Helvetica, sans-serif;
 }
+
+img[src= "/css/imagenes/log/Academia tech.png"]{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+margin-left: 15px;
+}
+
+
+
+
+
+
 .containernavh1Logo{
     display:flex;
     justify-content: center;

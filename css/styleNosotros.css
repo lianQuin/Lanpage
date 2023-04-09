@@ -46,6 +46,16 @@ a{
     align-content: center;
     flex-wrap: wrap;
 }
+
+img[src= "/css/imagenes/log/Academia tech.png"]{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 15px;
+    top: 15px;
+    }
+
+    
 .data{ width: 300px;
     height: 500px;
     float: left;
