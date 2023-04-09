@@ -26,9 +26,9 @@ a{
     color: #2C3333;
 }
 
-.containerLogo{
+/*.containerLogo{
     width: 25%;
-}
+}*/
 
 .container{
     display: flex;

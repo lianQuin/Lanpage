@@ -4,11 +4,17 @@ body {
     font: normal 75% Arial, Helvetica, sans-serif;
 }
 .containernavh1Logo{
+   /* display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #0E8388;*/
     display:flex;
     justify-content: center;
     justify-content: space-between;
     width: 100%;
     background-color: #0E8388;
+
 }
 
 .navegation{
@@ -28,7 +34,11 @@ a{
 }
 
 .containerLogo{
-    width: 25%;
+    float: left;
+    width: 5em;
+    height: 5em;
+    margin-right: 1em;
+    
 }
 .containMain{
     display: flex;
