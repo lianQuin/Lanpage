@@ -1,9 +1,0 @@
-Bienvenidos al curso de HTML para principiantes de Academia Tech. Este curso está diseñado para enseñarte los fundamentos del lenguaje de programación que sustenta la web, y adquirir habilidades esenciales para crear tu propio sitio web.
-
-En este curso, te enseñaremos cómo crear una página web desde cero utilizando HTML. Comenzaremos por enseñarte los conceptos básicos, como la estructura de una página web y cómo utilizar etiquetas HTML para definir su contenido. A continuación, te mostraremos cómo agregar elementos visuales, como imágenes y videos, y cómo dar formato al texto para que se vea más atractivo.
-
-Además, cubrimos temas más avanzados, como la creación de formularios para recopilar información de los usuarios y la incorporación de CSS para agregar estilo y diseño a tus páginas web. También te mostraremos cómo optimizar tu sitio web para motores de búsqueda y cómo asegurar tu sitio web para proteger la información de los usuarios.
-
-Nuestro enfoque está en enseñar a los principiantes, por lo que no es necesario tener conocimientos previos en programación para tomar este curso. Al final del curso, tendrás las habilidades necesarias para construir y personalizar tu propio sitio web.
-
-Este curso es ideal tanto para particulares como para empresas que buscan mejorar su presencia en línea. Si deseas avanzar en tu carrera o simplemente estás buscando aprender un nuevo pasatiempo, el curso de HTML para principiantes de Academia Tech es una excelente opción para ti. ¡Regístrate ahora y comienza a aprender con nosotros!
