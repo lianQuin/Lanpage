@@ -1,0 +1,38 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.contenedor a{
+  font-size: 40px;
+  transition: all ease 300ms;
+}
+.facebook {
+  color: white;
+}
+.instagram {
+  color: white;
+}
+.youtube {
+  color: white;
+}
+.twitter {
+  color: white;
+}
+.whatsapp {
+  color: white;
+}
+.linkedin {
+  color: white;
+}
+.map {
+  color: white;
+}
+.correo {
+  color: white;
+}
+.contenedor a:hover{
+  transform: scale(1.2);
+}
+
+

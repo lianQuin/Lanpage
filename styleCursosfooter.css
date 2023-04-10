@@ -1,0 +1,117 @@
+body{
+        background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
+}
+.containernavh1Logo{
+        display:flex;
+        justify-content: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #0E8388;
+}
+    
+    .navegation{
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+}
+a{
+        color:#CBE4DE;;
+}
+    
+.containerH1{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        color: #2C3333;
+}
+    
+    .containerLogo{
+        width: 25%;
+}
+    
+.formulario{ 
+        width: 15%;
+        height: 25%;
+        border: solid;
+        color: #2C3333;
+        display: flex;
+        justify-content: center;
+
+}
+    
+.contenedorimg{
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        margin: 20px;
+        
+}
+#htmlimg{
+        width: 150px;
+        height: 150px;
+        transition: 0.5s;
+        object-fit: cover;
+    
+}
+#htmlimg:hover{
+        transform:scale(1.2);
+}
+    
+.containerCursos{
+        background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
+
+        width: 600px;
+        height: 380px;
+       display: flex;
+        flex-wrap: wrap;
+}
+    
+.containerMenu{    
+        background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
+        display: flex;
+       align-content: center;
+       justify-content: center;
+       
+}
+.footer{
+        text-align: center;
+        margin-top: 250px;
+        background-color:#0E8388;
+ }
+
+ .contenedor {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .contenedor a{
+        font-size: 40px;
+        transition: all ease 300ms;
+    }
+    .facebook {
+        color: white;
+    }
+    .instagram {
+        color: white;
+    }
+    .youtube {
+        color: white;
+    }
+    .twitter {
+        color: white;
+    }
+    .whatsapp {
+        color: white;
+    }
+    .linkedin {
+        color: white;
+    }
+    .map {
+        color: white;
+    }
+    .correo {
+        color: white;
+    }
+    .contenedor a:hover{
+        transform: scale(1.2);
+    }
