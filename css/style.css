@@ -12,10 +12,6 @@ margin-left: 15px;
 }
 
 
-
-
-
-
 .containernavh1Logo{
 
 
@@ -40,8 +36,8 @@ a{
     width: 50%;
     display: flex;
     justify-content: center;
-    color: #2C3333;*/
-}
+    color: #2C3333;
+}*/
 
 .containerLogo{
     float: left;
@@ -66,7 +62,9 @@ a{
 main{
     width: 100%;
     height: 100%;
+    margin-top: 20%;
 }
+
 
 .container__slider{
     height: 90%;
@@ -74,8 +72,8 @@ main{
     max-width: 700px;
     margin: auto;
     overflow: hidden;
-    box-shadow: 0 0 0 10px #fff,
-                    0 15px 50px;
+    box-shadow: 0 15px 50px;
+    border-radius: 5%;
     position: relative;
 }
 
@@ -94,11 +92,66 @@ main{
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
+/*estilo form para index*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #008CBA;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005F6B;
+  }
+/*fin de estilo form index*/
+
+/*footer*/
 footer{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     background-color:#0E8388;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.contenedor a{
+    font-size: 40px;
+    transition: all ease 300ms;
+}
+.contenedor-icono {
+    color: white;
+}
+
+.contenedor a:hover{
+    transform: scale(1.2);
 }
