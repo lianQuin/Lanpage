@@ -111,18 +111,12 @@ form {
   }
 /*fin de estilo form index*/
 
-/*estilo footer*/
 
-footer{
-    text-align: center;
-    margin-top: 100px;
-    background-color:#0E8388;
-}
 
 /*footer*/
 footer{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     background-color:#0E8388;
 }
 
@@ -130,10 +124,11 @@ footer{
     display: flex;
     justify-content: center;
     gap: 30px;
+   
 }
 .contenedor a{
-    font-size: 40px;
-    transition: all ease 300ms;
+    font-size: 25px;
+    transition: all ease 300ms;    
 }
 .contenedor-icono {
     color: white;
