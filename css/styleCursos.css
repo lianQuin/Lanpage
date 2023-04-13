@@ -15,8 +15,11 @@ body{
         width: 25%;
 }
 a{
-        color:#CBE4DE;;
+        color:#CBE4DE;
+        text-decoration: none;
 }
+a:hover{
+        background-color: #2771e8;}
     
 .containerH1{
         width: 50%;

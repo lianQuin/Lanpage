@@ -1,6 +1,31 @@
 body{
     background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'arimo';sans-serif;
+}
+
+.menu{
+    display: inline-block;
+    position: relative;
+}
+
+.menu-contenido{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px;
+    rgba( 0,0,0,0.4)
+
+}
+.menu:hover . menu-conte
+nido
+
+
 .containernavh1Logo{
     display:flex;
     justify-content: center;
@@ -10,12 +35,16 @@ body{
 }
 
 .navegation{
-    display: flex;
-    justify-content: space-around;
-    width: 25%;
+    display: inline-block;
+    position: relative;
+    text-decoration:"none" ;
 }
 a{
-    color:#CBE4DE;;
+    color:#CBE4DE;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #2771e8;
 }
 
 .containerH1{
@@ -113,27 +142,205 @@ form {
 
 
 
-/*footer*/
-footer{
+
+
+
+
+
+
+
+section-cursos
+body{
+    background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
+}
+.containernavh1Logo{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #0E8388;
+}
+
+.navegation{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+a footer{
+    color:#CBE4DE;;
+}
+
+.containerH1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #2C3333;
+    overflow: hidden;
+    align-items: center;
+
+}
+.containerLogo{
+    width: 25%;
+}
+
+.formulario{ 
+    width: 15%;
+    height: 25%;
+    border: solid;
+    color: #2C3333;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5 rem;
+    line-height: 1.6 em;margin: 0;
+
+}
+
+.contenedorimg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 10%;
+    
+}
+.contenedorAvion{
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+
+}
+
+#htmlimg{
+
+    width: 30%;
+    height: 25%;
+    margin: 0px auto;
+    transition: 0.5s;
+    object-fit: contain;
+    
+
+}
+#htmlimg:hover{
+    transform:scale(1.2);
+}
+
+.containerCursos{
+    width: 90%;  
+    margin: 0PX auto;
+    background-image: href;
+    grid-template-columns: auto auto auto;
+    /* display: block;
+    /* flex-direction: row;*/
+   align-items: center;
+
+    /*background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
+
+    width: 600px;
+    height: 380px;
+   display: flex;
+    flex-wrap: wrap;*/
+}
+
+.containerMenu{  
+    width: 90%;  
+    margin: 0PX auto;
+    background:#2771e8;
+    grid-template-columns: auto auto auto;
+     display: flex;
+     flex-direction: row;
+   align-items: center;
+   
+   
+}
+.footer{
+    text-align: center;
+    margin-top: 250px;
+    background-color:#0E8388;
+}
+section .nosotros
+body{
+    background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
+}
+
+.containernavh1Logo{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #0E8388;
+}
+
+.navegation{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+a footer{
+    color:#CBE4DE;;
+}
+
+.containerH1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: #2C3333;
+}
+
+/*.containerLogo{
+    width: 25%;
+}*/
+
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+ }
+.container h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.nosotros{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+img[src= "/css/imagenes/log/Academia tech.png"]{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 15px;
+    top: 15px;
+    }
+
+    
+.data{ width: 300px;
+    height: 500px;
+    float: left;
+    
+
+}
+.data img{
+   float: left;
+    padding: 15px;
+}
+.data p{
+    display: flex;
+    float: right;
+    padding: 15px;
+    margin: flex;
+}
+header{
+    background-color:#ffff ;
+
+
+}footer{
     text-align: center;
     margin-top: 100px;
     background-color:#0E8388;
 }
-
-.contenedor {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-   
-}
-.contenedor a{
-    font-size: 25px;
-    transition: all ease 300ms;    
-}
-.contenedor-icono {
-    color: white;
-}
-
-.contenedor a:hover{
-    transform: scale(1.2);
+.data p{
+    color: #121313;
+    
 }
