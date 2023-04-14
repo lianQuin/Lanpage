@@ -225,7 +225,6 @@ a footer{
     justify-content: center;
     font-size: 1.5 rem;
     line-height: 1.6 em;margin: 0;
-
 }
 
 .contenedorimg{
@@ -234,12 +233,6 @@ a footer{
     overflow: hidden;
     margin: 10%;
     
-}
-.contenedorAvion{
-    float: right;
-    margin-left: 1em;
-    margin-bottom: 1em;
-
 }
 
 #htmlimg{
@@ -280,15 +273,9 @@ a footer{
     grid-template-columns: auto auto auto;
      display: flex;
      flex-direction: row;
-   align-items: center;
-   
-   
+   align-items: center;   
 }
-.footer{
-    text-align: center;
-    margin-top: 250px;
-    background-color:#0E8388;
-}
+
 section .nosotros
 body{
     background: linear-gradient(#2771e8,#caf3ff,#40c8c1);/*esto no responde, reveer clase*/
