@@ -9,42 +9,70 @@ body{
     background: #2771e8
 }
 
-
-.containernavh1Logo{
-    display:flex;
-    justify-content: center;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #2771e8;
-}
-
-.containerh1{
-    text-align: center;
-    font-size: 1rem;
-}
-
+/*nav bar*/
 .principal{
     text-align: center;
+    padding-inline-start: 20%;
     font-size: 1.5rem;
     font-family:'arimo'=sans-serif;
-
-
+    color:#CBE4DE;
 }
 
-.navegation{
-    display: inline-block;
-    position: relative;
-    text-decoration:"none" ;
-}
 a{
     color:#CBE4DE;
     text-decoration: none;
 }
+
 a:hover{
     background-color: #2771e8;
 }
 
-/*agregué desarrolla y unete y btncomienza*/
+.containerLogo{
+    width: 60px;
+    height:70
+}
+
+.containMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2C3333;
+}
+
+header{
+    background-color: #2771e8;
+}
+
+/*section-cursos*/
+section{
+    padding-top: 10%;
+    background-color: #2771e8;
+    font-family:'arimo'=sans-serif;
+}/*agrego section*/
+
+.navegation{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.containerH1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:white
+    overflow: hidden;
+    align-items: center;
+}
+
+.containernavh1Logo{
+    display:flex;
+   justify-content: center; 
+    width: 100%;
+    height: 70px;
+    background-color: #331ad5;
+}
 .desarrolla{
     margin-top: 10%;
     font-family:'arimo'=sans-serif;
@@ -68,41 +96,18 @@ a:hover{
     margin-top: 2%;
     font-size: 1rem;
 }
-/*fin de lo nuevo agregado btncomienza luego de type submit*/
 
-.containerH1{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
-.containerLogo{
-    width: 60px;
-    height:70
-}
-.containMain{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #2C3333;
-}
-header{
-    background-color: #2771e8;/*en 322 estaba blanco*/
-}
+.btncomienza{
+    margin-top: 5%;
+  }
 
 /* estilo del slider*/
-/**{
-    box-sizing: border-box;
-} ya lo especifica para todos los elementos*/
-
-main{
+main {
     width: 100%;
     height: 100%;
 }
 
-.container__slider{
+.container__slider {
     height: 90%;
     width: 90%;
     max-width: 700px;
@@ -113,18 +118,18 @@ main{
     margin-top: 15%;
 }
 
-.slider{
+.slider {
     display: flex;
     width: 300%;
     height: 400px;
     margin-left: -100%;
 }
 
-.slider__section{
+.slider__section {
     width: 100%;
 }
 
-.slider__img{
+.slider__img {
     display: block;
     width: 100%;
     height: 100%;
@@ -167,44 +172,6 @@ form {
     background-color: #005F6B;
   }
 /*fin de estilo form index*/
-.btncomienza{
-  margin-top: 5%;
-}
-
-
-/*section-cursos*/
-section{
-    padding-top: 10%;
-    background-color: #2771e8;
-    font-family:'arimo'=sans-serif;
-}/*agrego section*/
-
-/*body{
-    background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
-} lo comento porque sobreescribe la linea 8*/
-
-.navegation{
-    display: flex;
-    justify-content: space-around;
-    width: 25%;
-}
-a footer{
-    color:#CBE4DE;;
-}
-
-.containerH1{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color:white/*#2C3333;*/
-    overflow: hidden;
-    align-items: center;
-
-}
-
-/*.containerLogo{
-    width: 25%;
-} se repite*/
 
 .formulario{ 
     width: 15%;
@@ -215,6 +182,34 @@ a footer{
     justify-content: center;
     font-size: 1.5 rem;
     line-height: 1.6 em;margin: 0;
+}
+
+/*Cursos*/
+.ncursos{
+    font-family:'arimo'=sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 1.8rem;
+    padding-top: 8%;
+    padding-inline-start: 8%;
+}
+
+.containerCursos{
+    width: 100%;
+    background-image: href; 
+    grid-template-columns: auto auto auto;
+     display: block;
+    flex-direction: row;
+   align-items: center;
+}
+
+.containerMenu{  
+    width: 90%;  
+    background:#2771e8;
+    grid-template-columns: auto auto auto;
+    display: flex;
+   flex-direction: row;
+   align-items: center;   
 }
 
 .contenedorimg{
@@ -239,87 +234,21 @@ a footer{
     transform:scale(1.2);
 }
 
-.containerCursos{
-    width: 100%; /*cambié de 90% a 100%*/ 
-    margin: 0;/*0PX auto;*/
-    /*background-image: href; comenté sole*/
-    grid-template-columns: auto auto auto;
-    /* display: block;
-    /* flex-direction: row;*/
-   align-items: center;
-
-    /*background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
-
-    width: 600px;
-    height: 380px;
-   display: flex;
-    flex-wrap: wrap;*/
-}
-
-.containerMenu{  
-    width: 90%;  
-    margin: 0PX auto;
-    background:#2771e8;
-    grid-template-columns: auto auto auto;
-     display: flex;
-     flex-direction: row;
-   align-items: center;   
-}
-
-.Contáctanos{
+/*nosotros*/
+.tnosotros{
+    text-align: center;
     font-family:'arimo'=sans-serif;
-    text-align: right;
-    color: white;
+    padding: 20px;
     font-size: 1.8rem;
-    padding-inline-end: 10%;
-}
-
-.tins{
-    font-family:'arimo'=sans-serif;
-    text-align: right;
     color: white;
-    font-size: 1.5rem;
-    padding-top: 4%;
-    padding-inline-end: 10%;
 }
 
-.tcons{
+.nombres9{
     font-family:'arimo'=sans-serif;
-    text-align: right;
-    color: white;
     font-size: 1.5rem;
-    padding-top: 2%;
-    padding-inline-end: 10.8%; 
+    color: white;
 }
 
-section .nosotros
-body{......................................
-    background: linear-gradient(#2771e8,#caf3ff,#40c8c1);/*esto no responde, reveer clase*/
-}
-
-.containernavh1Logo{
-    display:flex;
-   /* justify-content: center; se sobreescribe en la siguiente linea*/
-    justify-content: space-between;
-    width: 100%;
-    height: 70px;
-    background-color: #331ad5;
-}
-
-.navegation{
-    display: flex;
-    justify-content: space-around;
-    width: 25%;
-}
-a footer{
-    color:#CBE4DE;
-}
-
-.container{
-    display: flex;
-    align-content: center;
-    justify-content: center;
- }
 
 .nosotros{
     display: flex;
@@ -341,19 +270,56 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
     height: 500px;
     float: left;
     
-
 }
 .data img{
    float: left;
     padding: 15px;
 }
 .data p{
+    font-family:'arimo'=sans-serif;
     display: flex;
     float: right;
     padding: 15px;
     margin: flex;
 }
 
+/* formularios*/
+.Contáctanos{
+    font-family:'arimo'=sans-serif;
+    text-align: right;
+    color: white;
+    font-size: 1.8rem;
+    padding-inline-end: 10%;
+}
+
+.tins{
+    font-family:'arimo'=sans-serif;
+    text-align: right;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 4%;
+    padding-inline-end: 10.8%;
+}
+
+.tcons{
+    font-family:'arimo'=sans-serif;
+    text-align: right;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 3%;
+    padding-inline-end: 10.8%; 
+}
+
+.irainicio{
+    font-family:'arimo'=sans-serif;
+    text-align: right;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 3%;
+    padding-inline-end: 10.8%; 
+
+}
+/*footer*/
 .footer{
     text-align: center;
     margin-top: 100px;
@@ -380,9 +346,10 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
     transform: scale(1.2);
 }
 
-h3{
+.h3{
     font-family:'arimo'=sans-serif;
     color: aliceblue; 
 }
+
 
 
