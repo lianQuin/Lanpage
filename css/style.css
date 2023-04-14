@@ -1,14 +1,16 @@
-body{
-    background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
-}
-*{
+*{/*todos los elementos*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'arimo'=sans-serif;
 }
 
-.menu{
+body{
+    background: #2771e8
+}
+
+
+/*.menu{
     display: inline-block;
     position: relative;
 }
@@ -21,16 +23,28 @@ body{
     box-shadow: 0px 10px 10px 0px;
     rgba:( 0,0,0,0.4)
 
-}
-
-
+}*/
 
 .containernavh1Logo{
     display:flex;
     justify-content: center;
     justify-content: space-between;
     width: 100%;
-    background-color: #0E8388;
+    background-color: #2771e8;
+}
+
+.containerh1{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.principal{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:'arimo'=sans-serif;
+
+
+
 }
 
 .navegation{
@@ -46,15 +60,36 @@ a:hover{
     background-color: #2771e8;
 }
 
+/*agregué desarrolla y unete y btncomienza*/
+.desarrolla{
+    margin-top: 10%;
+    font-family:'arimo'=sans-serif;
+    color: white;
+    text-align: center 
+    font-style: bold;
+    font-size: 2rem;
+}
+
+.unete{
+    font-family:'arimo'=sans-serif;
+    color: rgb(52, 51, 51);
+    text-align: right;
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+
+/*fin de lo nuevo agregado btncomienza luego de type submit*/
+
 .containerH1{
     width: 50%;
     display: flex;
     justify-content: center;
-    color: #121313;
+    color: white;
 }
 
 .containerLogo{
-    width: 25%;
+    width: 60px;
+    height:70
 }
 .containMain{
     display: flex;
@@ -63,11 +98,14 @@ a:hover{
     align-items: center;
     color: #2C3333;
 }
+header{
+    background-color: #2771e8;/*en 322 estaba blanco*/
+}
 
 /* estilo del slider*/
-*{
+/**{
     box-sizing: border-box;
-}
+} ya lo especifica para todos los elementos*/
 
 main{
     width: 100%;
@@ -82,6 +120,7 @@ main{
     overflow: hidden;
     box-shadow: 0 15px 50px;
     position: relative;
+    margin-top: 15%;
 }
 
 .slider{
@@ -124,7 +163,7 @@ form {
   }
   
   button[type="submit"] {
-    background-color: #008CBA;
+    background-color: #331ad5;
     color: white;
     font-size: 18px;
     padding: 10px 20px;
@@ -138,27 +177,21 @@ form {
     background-color: #005F6B;
   }
 /*fin de estilo form index*/
+.btncomienza{
+  margin-top: 5%;
+}
 
 
+/*section-cursos*/
+section{
+    padding-top: 10%;
+    background-color: #2771e8;
+    font-family:'arimo'=sans-serif;
+}/*agrego section*/
 
-
-
-
-
-
-
-
-section-cursos
-body{
+/*body{
     background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
-}
-.containernavh1Logo{
-    display:flex;
-    justify-content: center;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #0E8388;
-}
+} lo comento porque sobreescribe la linea 8*/
 
 .navegation{
     display: flex;
@@ -173,14 +206,15 @@ a footer{
     width: 100%;
     display: flex;
     justify-content: center;
-    color: #2C3333;
+    color:white/*#2C3333;*/
     overflow: hidden;
     align-items: center;
 
 }
-.containerLogo{
+
+/*.containerLogo{
     width: 25%;
-}
+} se repite*/
 
 .formulario{ 
     width: 15%;
@@ -223,9 +257,9 @@ a footer{
 }
 
 .containerCursos{
-    width: 90%;  
-    margin: 0PX auto;
-    background-image: href;
+    width: 100%; /*cambié de 90% a 100%*/ 
+    margin: 0;/*0PX auto;*/
+    /*background-image: href; comenté sole*/
     grid-template-columns: auto auto auto;
     /* display: block;
     /* flex-direction: row;*/
@@ -257,15 +291,16 @@ a footer{
 }
 section .nosotros
 body{
-    background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
+    background: linear-gradient(#2771e8,#caf3ff,#40c8c1);/*esto no responde, reveer clase*/
 }
 
 .containernavh1Logo{
     display:flex;
-    justify-content: center;
+   /* justify-content: center; se sobreescribe en la siguiente linea*/
     justify-content: space-between;
     width: 100%;
-    background-color: #0E8388;
+    height: 70px;
+    background-color: #331ad5;
 }
 
 .navegation{
@@ -277,26 +312,11 @@ a footer{
     color:#CBE4DE;;
 }
 
-.containerH1{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    color: #2C3333;
-}
-
-/*.containerLogo{
-    width: 25%;
-}*/
-
 .container{
     display: flex;
     align-content: center;
     justify-content: center;
  }
-.container h1{
-    text-align: center;
-    font-size: 30px;
-}
 
 .nosotros{
     display: flex;
@@ -330,16 +350,29 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
     padding: 15px;
     margin: flex;
 }
-header{
-    background-color:#ffff ;
 
-
-}footer{
+.footer{
     text-align: center;
     margin-top: 100px;
     background-color:#0E8388;
 }
-.data p{
-    color: #121313;
-    
+
+.contfooter {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+   
 }
+.contenedor a{
+    font-size: 25px;
+    transition: all ease 300ms;    
+}
+.contenedor-icono {
+    color: white;
+}
+
+.contenedor a:hover{
+    transform: scale(1.2);
+}
+
