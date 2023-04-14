@@ -378,6 +378,7 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
 .footer{
     text-align: center;
     margin-top: 100px;
+    height: 80px;
     background:#0E8388;/*#331ad5;*/
 }
 
@@ -386,6 +387,7 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding: 2%;
     background-color: #0E8388;/*#331ad5;*/
    
 }
@@ -403,7 +405,8 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
 
 .h3{
     font-family:'arimo'=sans-serif;
-    color: aliceblue; 
+    color: aliceblue;
+    font-size: 1rem; 
 }
 
 
