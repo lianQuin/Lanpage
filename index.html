@@ -10,11 +10,14 @@
     <link rel="icon" href="css\imagenes\log\icono.png" type="image/x-icon">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
      <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
-    <title>Academia tech</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <title>Academia tech</title>
 </head>
-  <body>
   
-
+    <div id="particles-js"></div> <!-- stats - count particles -->
+    <div class="count-particles"> <span class="js-count-particles" style="color: transparent">--</span> particles </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+<body>
+    
     <header class="header">
       
       <div class="containernavh1Logo">
@@ -24,8 +27,11 @@
         </div>
 
         <div class="containerH1">
-          <h1 class="principal">ACADEMIA TECH</h1>
+          <h1 class="titulo animate__animated animate__fadeInDown" style="color: white;">ACADEMIA TECH</h1>
+
         </div>
+
+
 
  <!-- navegación-->
   <nav class="navegation">    
@@ -92,30 +98,30 @@
       <div class="containerMenu">  
           <div class="containerCursos">
 
-              <div class="contenedorimg">
+              <div class="contenedorimg animate__animated animate__backInRight animate__delay-1s">
                   <a href="curso1.html"><img id="htmlimg" src="css\imagenes\html.jpg" alt="Logo de html"></a>                
               </div>
 
-              <div class="contenedorimg">
-                  <a href="curso2.html"><img id ="htmlimg" src="css/imagenes/css.jpg" alt="Logo de html"></a>
+              <div class="contenedorimg animate__animated animate__backInRight animate__delay-2s">
+                  <a href="curso2.html"><img id ="htmlimg" src="css/imagenes/css.jpg" alt="Logo de css"></a>
               </div>
 
-              <div class="contenedorimg">
-                  <a href="curso3.html"> <img id="htmlimg" src="css/imagenes/js.jpg" alt="Logo de html"></a>
+              <div class="contenedorimg animate__animated animate__backInRight animate__delay-3s">
+                  <a href="curso3.html"> <img id="htmlimg" src="css/imagenes/js.jpg" alt="Logo de js"></a>
               </div>
 
-              <div class="contenedorimg">
-                  <a href="curso4.html"> <img id="htmlimg" src="css/imagenes/java.jpg" alt="Logo de html"></a>
-              </div>
-
-              
-              <div class="contenedorimg">
-                  <a href="curso5.html"> <img id="htmlimg" src="css/imagenes/python.jpg" alt="Logo de html"></a>
+              <div class="contenedorimg animate__animated animate__backInRight animate__delay-4s">
+                  <a href="curso4.html"> <img id="htmlimg" src="css/imagenes/java.jpg" alt="Logo de java"></a>
               </div>
 
               
-              <div class="contenedorimg">
-                  <a href="curso6.html"> <img id="htmlimg" src="css/imagenes/git.jpg" alt="Logo de html"></a>
+              <div class="contenedorimg animate__animated animate__backInRight animate__delay-5s">
+                  <a href="curso5.html"> <img id="htmlimg" src="css/imagenes/python.jpg" alt="Logo de python"></a>
+              </div>
+
+              
+              <div class="contenedorimg animate__animated animate__backInRight animate__delay-5s">
+                  <a href="curso6.html"> <img id="htmlimg" src="css/imagenes/git.jpg" alt="Logo de git"></a>
               </div>
             <div class="data">
              
@@ -126,7 +132,7 @@
 <!--Nosotros-->
 <section>
   
-    <p class="tnosotros">Nosotros</p><br>
+    <p class="tnosotros  animate__animated animate__fadeInDown animate__delay-1s ">Nosotros</p><br>
     <div class="container">
         
         <div class="nosotros">
@@ -134,7 +140,7 @@
                 
                 <img src="css\imagenes\avatar Liliana.jpg"width="130px" height="120px" alt="avatar femenino">
                 <a class="nombres9">Liliana Soledad Quintana</a>
-                <p>Hola soy Lili tengo 40 años vivo con mi familia formada por mis dos hijos,mi esposo Juan y Novus el perro en Buenos Aires,zona oeste; Hace unos años deje de estudiar por cosas de la vida y no creia ser capaz de volver, pero cuando conocí este mundo que parece magico me propuse a no dejar de estudiar esto que estoy amando, mi objetivo es especializarme y trabajar junto a mi esposo en un proyecto en conjunto desde casa. Ojalá logremos todos llegar a nuestra meta!!-</p>
+                <p>Hola soy Lili tengo 40 años vivo con mi familia formada por mis dos hijos,mi esposo Juan y Novus el perro en Buenos Aires,zona oeste; Hace unos años deje de estudiar por cosas de la vida y no creía ser capaz de volver, pero cuando conocí este mundo que parece mágico me propuse a no dejar de estudiar esto que estoy amando, mi objetivo es especializarme y trabajar junto a mi esposo en un proyecto en conjunto desde casa. Ojalá logremos todos llegar a nuestra meta!!-</p>
             </div>
 
             <div class="data">
@@ -163,6 +169,7 @@
             </div>      
         </div>
    </main>
+
 <!--Formularios-->
     <section>
     <div id="enlace">
@@ -175,7 +182,6 @@
       <li class="irainicio"><a href="#Arriba">Inicio</a></li>
     </ul>
     </div>
-</section>
 
  <!-- comienza footer-->
 <footer class="footer">
@@ -212,6 +218,9 @@
     &copy; <b>Academia Tech todos los derechos reservados 2023</b>
   </footer>
 
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  <script src="js\particulas.js"></script>
 
 </body>
 </html>

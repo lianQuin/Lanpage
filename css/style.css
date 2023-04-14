@@ -8,6 +8,57 @@
 body{
     background: #2771e8
 }
+*particulas*/
+/* ---- reset ---- */
+{
+margin: 0;;
+}
+canvas {
+display: block;
+vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: transparent;
+background-image: url("");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+background: transparent;
+position: absolute;
+top: 48px;
+left: 0;
+width: 80px;
+color: transparent;
+font-size: 0.8em;
+text-align: left;
+text-indent: 4px;
+line-height: 14px;
+padding-bottom: 2px;
+font-family: Helvetica, Arial, sans-serif;
+font-weight: bold;
+}
+.js-count-particles {
+font-size: 1.1em;
+}
+#stats,
+.count-particles {
+-webkit-user-select: none;
+margin-top: 5px;
+margin-left: 5px;
+}
+#stats {
+border-radius: 3px 3px 0 0;
+overflow: hidden;
+}
+.count-particles {
+border-radius: 0 0 3px 3px;
+}
+ /*fin de particulas*/
 
 /*nav bar*/
 .principal{
@@ -17,6 +68,8 @@ body{
     font-family:'arimo'=sans-serif;
     color:#CBE4DE;
 }
+.animate__animated.animate__fadeInDown{
+--animate-duration: 4s;}
 
 a{
     color:#CBE4DE;
@@ -202,7 +255,9 @@ form {
     flex-direction: row;
    align-items: center;
 }
-
+.animate__animated.animate__backInRight{
+--animate-duration: 4s; 
+}
 .containerMenu{  
     width: 90%;  
     background:#2771e8;
