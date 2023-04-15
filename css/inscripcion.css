@@ -51,3 +51,27 @@ border: solid 1px #2771e8;
     color: #000000;
     display: inline-table;
  }
+
+ .footer{
+    text-align: center;
+    margin-top: 100px;
+    height: 80px;
+    background:#0E8388;/*#331ad5;*/
+}
+
+
+.contfooter {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 2%;
+    background-color: #0E8388;/*#331ad5;*/
+   
+}
+.contenedor a{
+    font-size: 25px;
+    transition: all ease 300ms;    
+}
+.contenedor-icono {
+    color: white;
+}

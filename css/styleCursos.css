@@ -3,8 +3,8 @@
         padding: 0;
         box-sizing: border-box;
         font-family:'arimo'=sans-serif;
-    }
-    
+}
+
 body{
         background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
 }
@@ -15,8 +15,8 @@ body{
         width: 100%;
         background-color: #0E8388;
 }
-    
-    .navegation{
+
+.navegation{
         display: flex;
         justify-content: space-around;
         width: 25%;
@@ -27,18 +27,18 @@ a{
 }
 a:hover{
         background-color: #2771e8;}
-    
+
 .containerH1{
         width: 50%;
         display: flex;
         justify-content: center;
         color: #2C3333;
 }
-    
-    .containerLogo{
+
+.containerLogo{
         width: 25%;
 }
-    
+
 .formulario{ 
         width: 15%;
         height: 25%;
@@ -50,7 +50,7 @@ a:hover{
         line-height: 1.6 em;margin: 0;
 
 }
-    
+
 .contenedorimg{
         width: 150px;
         height: 150px;
@@ -63,30 +63,58 @@ a:hover{
         height: 150px;
         transition: 0.5s;
         object-fit: contain;
-    
+
 }
 #htmlimg:hover{
         transform:scale(1.2);
 }
-    
+
 .containerCursos{
         background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
 
         width: 600px;
         height: 380px;
-       display: flex;
+        display: flex;
         flex-wrap: wrap;
 }
-    
+
 .containerMenu{    
         background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
         display: flex;
-       align-content: center;
-       justify-content: center;
-       
+        align-content: center;
+        justify-content: center;
+
 }
 .footer{
         text-align: center;
-        margin-top: 250px;
-        background-color:#0E8388;
- }
+        padding-top: 75%;
+        height: 80px;
+        background:#0E8388;/*#331ad5;*/
+}
+
+
+.contfooter {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 2%;
+        /*background-color: #0E8388;/*#331ad5;*/
+}
+.contenedor a{
+        font-size: 25px;
+        transition: all ease 300ms;    
+}
+.contenedor-icono {
+        color: white;
+}
+
+.contenedor a:hover{
+        transform: scale(1.2);
+}
+
+.h3{
+        font-family:'arimo'=sans-serif;
+        color: aliceblue;
+        background-color: #0E8388;
+        font-size: 1rem; 
+}

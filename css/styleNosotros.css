@@ -131,8 +131,36 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
     margin: flex;
 }
 /*footer*/
-footer{
+.footer{
     text-align: center;
     margin-top: 100px;
-    background-color:#0E8388;
+    height: 80px;
+    background:#0E8388;/*#331ad5;*/
+}
+
+
+.contfooter {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 2%;
+    background-color: #0E8388;/*#331ad5;*/
+   
+}
+.contenedor a{
+    font-size: 25px;
+    transition: all ease 300ms;    
+}
+.contenedor-icono {
+    color: white;
+}
+
+.contenedor a:hover{
+    transform: scale(1.2);
+}
+
+.h3{
+    font-family:'arimo'=sans-serif;
+    color: aliceblue;
+    font-size: 1rem; 
 }
