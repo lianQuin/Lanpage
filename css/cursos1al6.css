@@ -80,7 +80,6 @@
   .footer{
     text-align: center;
     margin-top: 100px;
-    height: 80px;
     background:#0E8388;/*#331ad5;*/
 }
 
@@ -89,8 +88,6 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding: 2%;
-    background-color: #0E8388;/*#331ad5;*/
    
 }
 .contenedor a{
@@ -108,5 +105,4 @@
 .h3{
     font-family:'arimo'=sans-serif;
     color: aliceblue;
-    font-size: 1rem; 
 }
