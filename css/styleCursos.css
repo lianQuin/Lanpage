@@ -87,34 +87,31 @@ a:hover{
 }
 .footer{
         text-align: center;
-        padding-top: 75%;
-        height: 80px;
+        margin-top: 100px;
         background:#0E8388;/*#331ad5;*/
-}
-
-
-.contfooter {
+    }
+    
+    
+    .contfooter {
         display: flex;
         justify-content: center;
         gap: 30px;
-        padding: 2%;
-        /*background-color: #0E8388;/*#331ad5;*/
-}
-.contenedor a{
+       
+    }
+    .contenedor a{
         font-size: 25px;
         transition: all ease 300ms;    
-}
-.contenedor-icono {
+    }
+    .contenedor-icono {
         color: white;
-}
-
-.contenedor a:hover{
+    }
+    
+    .contenedor a:hover{
         transform: scale(1.2);
-}
-
-.h3{
+    }
+    
+    .h3{
         font-family:'arimo'=sans-serif;
         color: aliceblue;
-        background-color: #0E8388;
-        font-size: 1rem; 
-}
+    
+    }
