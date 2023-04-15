@@ -117,6 +117,7 @@ section{
     color:#CBE4DE;/*white*/
     overflow: hidden;
     align-items: center;
+    text-align: center;
 }
 
 .containernavh1Logo{
@@ -243,43 +244,38 @@ form {
     text-align: left;
     color: white;
     font-size: 1.8rem;
-    padding-top: 0%;
-    padding-inline-start: 8%;
+    margin: 5%;
 }
 
 .containerCursos{
-    width: 100%;
-    background-image: href; 
-    grid-template-columns: auto auto auto;
-     display: block;
-    flex-direction: row;
-   align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
 }
+
 .animate__animated.animate__backInRight{
 --animate-duration: 4s; 
 }
-.containerMenu{  
+/*.containerMenu{  
     width: 90%;  
     background:#2771e8;
     grid-template-columns: auto auto auto;
     display: flex;
    flex-direction: row;
    align-items: center;   
-}
+}*/
 
 .contenedorimg{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    margin: 10%;
+    width: 25%;
+    margin: 20px;
     
 }
 
 #htmlimg{
 
-    width: 30%;
-    height: 25%;
-    margin: 0px auto;
+    width: 100%;
     transition: 0.5s;
     object-fit: contain;
     
@@ -378,7 +374,6 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
 .footer{
     text-align: center;
     margin-top: 100px;
-    height: 80px;
     background:#0E8388;/*#331ad5;*/
 }
 
@@ -387,8 +382,6 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding: 2%;
-    background-color: #0E8388;/*#331ad5;*/
    
 }
 .contenedor a{
@@ -406,7 +399,7 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
 .h3{
     font-family:'arimo'=sans-serif;
     color: aliceblue;
-    font-size: 1rem; 
+
 }
 
 
