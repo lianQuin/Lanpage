@@ -1,3 +1,10 @@
+*{/*todos los elementos*/
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:'arimo'=sans-serif;
+    }
+    
 body{
         background: linear-gradient(#2771e8,#caf3ff,#40c8c1);
 }
@@ -15,8 +22,11 @@ body{
         width: 25%;
 }
 a{
-        color:#CBE4DE;;
+        color:#CBE4DE;
+        text-decoration: none;
 }
+a:hover{
+        background-color: #2771e8;}
     
 .containerH1{
         width: 50%;

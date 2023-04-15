@@ -1,48 +1,90 @@
+*{/*todos los elementos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'arimo'=sans-serif;
+}
+
+body{
+    background: #2771e8
+}
+*particulas*/
 /* ---- reset ---- */
-body {
-    margin: 2%;
-    font: normal 75% Arial, Helvetica, sans-serif;
+{
+margin: 0;;
 }
-
-img[src= "/css/imagenes/log/Academia tech.png"]{
-width: 60px;
-height: 60px;
-border-radius: 50%;
-margin-left: 15px;
+canvas {
+display: block;
+vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: transparent;
+background-image: url("");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+background: transparent;
+position: absolute;
+top: 48px;
+left: 0;
+width: 80px;
+color: transparent;
+font-size: 0.8em;
+text-align: left;
+text-indent: 4px;
+line-height: 14px;
+padding-bottom: 2px;
+font-family: Helvetica, Arial, sans-serif;
+font-weight: bold;
 }
-
-
-
-
-
-
-.containernavh1Logo{
-    display:flex;
-    justify-content: center;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #0E8388;
+.js-count-particles {
+font-size: 1.1em;
 }
-
-.navegation{
-    display: flex;
-    justify-content: space-around;
-    width: 25%;
+#stats,
+.count-particles {
+-webkit-user-select: none;
+margin-top: 5px;
+margin-left: 5px;
 }
+#stats {
+border-radius: 3px 3px 0 0;
+overflow: hidden;
+}
+.count-particles {
+border-radius: 0 0 3px 3px;
+}
+ /*fin de particulas*/
+
+/*nav bar*/
+.principal{
+    text-align: center;
+    padding-inline-start: 20%;
+    font-size: 1.5rem;
+    font-family:'arimo'=sans-serif;
+    color:#CBE4DE;
+}
+.animate__animated.animate__fadeInDown{
+--animate-duration: 4s;}
+
 a{
-    color:#CBE4DE;;
+    color:#CBE4DE;
+    text-decoration: none;
 }
 
-.containerH1{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    color: #2C3333;
+a:hover{
+    background-color: #2771e8;
 }
 
 .containerLogo{
-    width: 25%;
+    width: 60px;
+    height:70
 }
+
 .containMain{
     display: flex;
     flex-direction: column;
@@ -51,47 +93,318 @@ a{
     color: #2C3333;
 }
 
-/* estilo del slider*/
-*{
-    box-sizing: border-box;
+header{
+    background-color: #2771e8;
 }
 
-main{
+/*section-cursos*/
+section{
+    padding-top: 10%;
+    background-color: #2771e8;
+    font-family:'arimo'=sans-serif;
+}/*agrego section*/
+
+.navegation{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.containerH1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:#CBE4DE;/*white*/
+    overflow: hidden;
+    align-items: center;
+}
+
+.containernavh1Logo{
+    display:flex;
+   justify-content: center; 
+    width: 100%;
+    height: 70px;
+    background-color:#0E8388; /*#331ad5;*/
+}
+.desarrolla{
+    margin-top: 10%;
+    font-family:'arimo'=sans-serif;
+    color: #CBE4DE;/*white;*/
+    text-align: center 
+    font-style: bold;
+    font-size: 2rem;
+}
+
+.unete{
+    font-family:'arimo'=sans-serif;
+    color: rgb(52, 51, 51);
+    text-align: right;
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+.registrate{
+    font-family:'arimo'=sans-serif;
+    color: rgb(52, 51, 51);
+    text-align: right;
+    margin-top: 2%;
+    font-size: 1rem;
+}
+
+.btncomienza{
+    margin-top: 5%;
+  }
+
+/* estilo del slider*/
+main {
     width: 100%;
     height: 100%;
 }
 
-.container__slider{
+.container__slider {
     height: 90%;
     width: 90%;
     max-width: 700px;
     margin: auto;
     overflow: hidden;
-    box-shadow: 0 0 0 10px #fff,
-                    0 15px 50px;
+    box-shadow: 0 15px 50px;
     position: relative;
+    margin-top: 15%;
 }
 
-.slider{
+.slider {
     display: flex;
     width: 300%;
     height: 400px;
     margin-left: -100%;
 }
 
-.slider__section{
+.slider__section {
     width: 100%;
 }
 
-.slider__img{
+.slider__img {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
-footer{
+/*estilo form para index*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #331ad5;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005F6B;
+  }
+/*fin de estilo form index*/
+
+.formulario{ 
+    width: 15%;
+    height: 25%;
+    border: solid;
+    color: #2C3333;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5 rem;
+    line-height: 1.6 em;margin: 0;
+}
+
+/*Cursos*/
+.ncursos{
+    font-family:'arimo'=sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 1.8rem;
+    padding-top: 0%;
+    padding-inline-start: 8%;
+}
+
+.containerCursos{
+    width: 100%;
+    background-image: href; 
+    grid-template-columns: auto auto auto;
+     display: block;
+    flex-direction: row;
+   align-items: center;
+}
+.animate__animated.animate__backInRight{
+--animate-duration: 4s; 
+}
+.containerMenu{  
+    width: 90%;  
+    background:#2771e8;
+    grid-template-columns: auto auto auto;
+    display: flex;
+   flex-direction: row;
+   align-items: center;   
+}
+
+.contenedorimg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 10%;
+    
+}
+
+#htmlimg{
+
+    width: 30%;
+    height: 25%;
+    margin: 0px auto;
+    transition: 0.5s;
+    object-fit: contain;
+    
+
+}
+#htmlimg:hover{
+    transform:scale(1.2);
+}
+
+/*nosotros*/
+.tnosotros{
+    text-align: center;
+    font-family:'arimo'=sans-serif;
+    padding: 20px;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.nombres9{
+    font-family:'arimo'=sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.nosotros{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+img[src= "/css/imagenes/log/Academia tech.png"]{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 15px;
+    top: 15px;
+    }
+
+    
+.data{ width: 300px;
+    height: 500px;
+    float: left;
+    
+}
+.data img{
+   float: left;
+    padding: 15px;
+}
+.data p{
+    font-family:'arimo'=sans-serif;
+    display: flex;
+    float: right;
+    padding: 15px;
+    margin: flex;
+}
+
+/* formularios*/
+.Contáctanos{
+    font-family:'arimo'=sans-serif;
+    text-align: right;
+    color: white;
+    font-size: 1.8rem;
+    padding-inline-end: 10%;
+}
+
+.tins{
+    font-family:'arimo'=sans-serif;
+    text-align: right;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 4%;
+    padding-inline-end: 10.8%;
+}
+
+.tcons{
+    font-family:'arimo'=sans-serif;
+    text-align: right;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 3%;
+    padding-inline-end: 10.8%; 
+}
+
+.irainicio{
+    font-family:'arimo'=sans-serif;
+    text-align: right;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 3%;
+    padding-inline-end: 10.8%; 
+
+}
+/*footer*/
+.footer{
     text-align: center;
     margin-top: 100px;
-    background-color:#0E8388;
+    background:#0E8388;/*#331ad5;*/
 }
+
+
+.contfooter {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #0E8388;/*#331ad5;*/
+   
+}
+.contenedor a{
+    font-size: 25px;
+    transition: all ease 300ms;    
+}
+.contenedor-icono {
+    color: white;
+}
+
+.contenedor a:hover{
+    transform: scale(1.2);
+}
+
+.h3{
+    font-family:'arimo'=sans-serif;
+    color: aliceblue; 
+}
+
+
+

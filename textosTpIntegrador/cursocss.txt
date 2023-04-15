@@ -1,7 +1,0 @@
-Bienvenidos al curso de CSS para principiantes de Academia Tech. En este curso, aprenderás a dar estilo y diseño a tus páginas web utilizando CSS. El Cascading Style Sheets (CSS) es un lenguaje de hojas de estilo que se utiliza para describir la presentación visual de un documento escrito en lenguaje HTML o XML. A lo largo del curso, te enseñaremos cómo seleccionar elementos HTML y aplicar estilos a ellos utilizando propiedades de CSS. También te mostraremos cómo trabajar con diseños de caja, tipografía, imágenes y otros elementos de diseño.
-
-El curso está diseñado para principiantes y no se requiere experiencia previa en desarrollo web. Los materiales del curso incluyen videos tutoriales, ejercicios prácticos y proyectos que te permitirán aplicar lo que has aprendido. Al final del curso, tendrás las habilidades necesarias para crear diseños de página web profesionales y atractivos utilizando CSS.
-
-Nuestro equipo de instructores son profesionales experimentados en el desarrollo web y te guiarán a lo largo de todo el curso, ayudándote en cualquier duda que puedas tener. ¡Regístrate ahora y comienza a aprender con Academia Tech!
-
-
