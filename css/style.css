@@ -74,9 +74,17 @@ border-radius: 0 0 3px 3px;
     font-family:'arimo'=sans-serif;
     color:#CBE4DE;
 }
+/*animacion de cada elemento de la lanpage*/
 .animate__animated.animate__fadeInDown{
---animate-duration: 4s;}
-
+    --animate-duration:5s;
+    animation-iteration-count: infinite ;
+}
+.animate__animated.animate__fadeInDownBig{
+--animate-duration:5s;
+-o-animation-direction: alternate-reverse;
+animation-iteration-count: infinite ;
+}
+/*fin de animación*/
 a{
     color:#CBE4DE;
     text-decoration: none;

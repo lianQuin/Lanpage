@@ -11,6 +11,9 @@
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
      <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+     
      <title>Academia Tech</title>
 </head>
   
@@ -19,7 +22,7 @@
     
     <header class="header">
       
-      <div class="containernavh1Logo">
+      <div class="containernavh1Logo"><a name="Arriba"></a>
         
         <div class="containerLogo">
         <img class= "logo" src= "css\imagenes\log\logo2.jpg" width="70px" height=" 70px"  alt= "Logo"> 
@@ -27,19 +30,19 @@
 
         <div class="containerH1">
           <h1 class="titulo animate__animated animate__fadeInDown" style="color: white;">ACADEMIA TECH</h1>
-
-        </div>
+          
+        </div> 
         <nav class="navegation">    
-          <a href="nosotros.html" target="_blank" >Nosotros </a>
-          <a href="cursos.html" target="_blank" > Cursos</a>
-          <a href="./Inscripcion.html"target="_blank"  > Inscripción</a>
-</div>
+          <a href="#nosotros">Nosotros </a>
+          <a href="#cursos"> Cursos</a>
+          <a href="#inscripción"> Inscripción</a>
+      </div>
         <div id="particles-js"></div> <!-- stats - count particles -->
         <div class="count-particles"> <span class="js-count-particles" style="color: transparent">--</span> particles </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
 
  <!-- navegación-->
  
-<a name="Arriba"></a>
+
 
      
 
@@ -65,10 +68,10 @@
       
     </header>      
             
-    <main> <!-- comienza slider -->
+ <!-- comienza slider -->
 
      
-      <div class="container__slider">
+<div class="container__slider">
         <div class="slider" id="slider">
           <div class="slider__section">
             <img src="./css/imagenes/s1.jpg" alt="testimonio usuario" class="slider__img">
@@ -79,7 +82,7 @@
           <div class="slider__section">
             <img src="./css/imagenes/s3.jpg" alt="testimonio usuario" class="slider__img">
           </div>
-      </div>
+        </div>
 
       <script src="js\slider.js"></script>
      
@@ -87,59 +90,58 @@
       <!-- fin slider-->
       
       <!--form contacto-->
-    </div> 
+</div> 
     <form>
       <label for="email">Ingresa tu correo electrónico para recibir más información:</label>
       <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com">
       <button type="submit">Enviar</button>
     </form>
-  </div>
+
 <!--fin form contacto-->
 
-    </main>
+    
     
             
-           
-     <!--deberíamos cambiar x div? ya existe header-->
-       <div class="ncursos animate__animate animate__fadeIndown animate__delay-1s"><br>Nuestros cursos</div>
+      <!--comienza cursos-->     
+     <a name="cursos"></a>
+    <div class="ncursos animate__animated animate__backInRight animate__backInRight "><br>Nuestros cursos</div>
      
 
-      <!--Cursos-->
-      
-          <div class="containerCursos">
+      <div class="containerCursos">
 
-              <div class="contenedorimg animate__animated animate__backInRight">
+              <div class="contenedorimg animate__animated animate__backInRight animate__backInRight  ">
                   <a href="curso1.html"><img id="htmlimg" src="css\imagenes\html.jpg" alt="Logo de html"></a>                
               </div>
 
-              <div class="contenedorimg animate__animated animate__backInRight ">
+              <div class="contenedorimg animate__animated animate__backInRight animate__backInRight ">
                   <a href="curso2.html"><img id ="htmlimg" src="css/imagenes/css.jpg" alt="Logo de css"></a>
               </div>
 
-              <div class="contenedorimg animate__animated animate__backInRight ">
+              <div class="contenedorimg animate__animated animate__backInRight animate__backInRight ">
                   <a href="curso3.html"> <img id="htmlimg" src="css/imagenes/js.jpg" alt="Logo de js"></a>
               </div>
 
-              <div class="contenedorimg animate__animated animate__backInRight">
+              <div class="contenedorimg animate__animated animate__backInRight animate__backInRight">
                   <a href="curso4.html"> <img id="htmlimg" src="css/imagenes/java.jpg" alt="Logo de java"></a>
               </div>
 
               
-              <div class="contenedorimg animate__animated animate__backInRight">
+              <div class="contenedorimg animate__animated animate__backInRight animate__backInRight">
                   <a href="curso5.html"> <img id="htmlimg" src="css/imagenes/python.jpg" alt="Logo de python"></a>
               </div>
 
               
-              <div class="contenedorimg animate__animated animate__backInRight">
+              <div class="contenedorimg animate__animated animate__backInRight animate__backInRight">
                   <a href="curso6.html"> <img id="htmlimg" src="css/imagenes/git.jpg" alt="Logo de git"></a>
               </div>
             
              
-        </div>  
+        
       </div>
-</section>
+    </div>
 
-<!--Nosotros-->
+<!--Nosotros--><a name="nosotros"></a>
+
 <section>
   
     <p class="tnosotros  animate__animated animate__fadeInDown animate__delay-1s ">Nosotros</p><br>
@@ -149,49 +151,51 @@
             <div class="data">
                 
                 <img src="css\imagenes\avatar Liliana.jpg"width="130px" height="120px" alt="avatar femenino">
-                <a class="nombres9">Liliana Soledad Quintana</a>
+                <a class="nombres9titulo animate__animated animate__fadeInDown animate__delay-1s">Liliana Soledad Quintana</a>
                 <p>Hola soy Lili tengo 40 años vivo con mi familia formada por mis dos hijos,mi esposo Juan y Novus el perro en Buenos Aires,zona oeste; Hace unos años deje de estudiar por cosas de la vida y no creía ser capaz de volver, pero cuando conocí este mundo que parece mágico me propuse a no dejar de estudiar esto que estoy amando, mi objetivo es especializarme y trabajar junto a mi esposo en un proyecto en conjunto desde casa. Ojalá logremos todos llegar a nuestra meta!!-</p>
             </div>
 
             <div class="data">
                 <img src="css\imagenes\avatar soledadcedro.webp" width="130px" height="120px" alt="avatar femenino">
-                <a class="nombres9">Maria Soledad Cedro</a>
+                <a class="nombres9titulo animate__animated animate__fadeInDown animate__delay-2s">Maria Soledad Cedro</a>
                 <p>¡Hola! Mi nombre es Sole, tengo 40 años y soy originaria de Vicente López, Buenos Aires. Hace varios años que vivo en Tandil junto a mi familia y actualmente me encuentro explorando y descubriendo el amplio mundo de la tecnología. Me apasiona adquirir nuevas habilidades y experiencias, y estoy entusiasmada por seguir aprendiendo y creciendo en este fascinante campo.</p>
             </div>   
   
             <div class="data">
                 <img src="css\imagenes\AVATAR MARIANA.webp" width="130px" height="120px" alt="avatar femenino">
-                <a class="nombres9">Mariana Argañaraz</a>
+                <a class="nombres9titulo animate__animated animate__fadeInDown animate__delay-3s">Mariana Argañaraz</a>
                 <p>Hola, mi nombre es Mariana, tengo 43 años y soy de Tucumán. Desde hace varios años  me llama la atención el campo de las TIC, estoy entusiasmada por poder aprender y tener acceso , junto a otros, a un mundo de conocimientos totalmente nuevos para mí.  </p>
             </div>
             
              <div class="data">
                 <img src="css\imagenes\avatar 3.webp"  width="130px" height="120px"alt="avatar femenino">
-                <a class="nombres9">Alicia Antón</a>
+                <a class="nombres9titulo animate__animated animate__fadeInDown animate__delay-4s">Alicia Antón</a>
                 <p>Hola!!! Soy Alicia, tengo 41 años, de Caseros (Buenos Aires). Me gustan los retos;por eso me encuentro incursionando en este nuevo mundo del IT. Con muchas ganas de adquirir conocimientos y conocer gente, para poder colaborar y ayudarnos entre todos. Me fascina lo que voy descubriendo!!!</p> 
             </div> 
 
              <div class="data">
                 <img src="css\imagenes\avatar Edu.jpg" width="130px" height="120px" text-decoration="none" alt="avatar masculino">
-                <a class="nombres9">Juan Eduardo Ojeda</a>
+                <a class="nombres9titulo animate__animated animate__fadeInDown animate__delay-5s">Juan Eduardo Ojeda</a>
                 <p>Hola Soy Edu tengo 43 años vivo en zona sur del gran Buenos Aires en la ciudad de Monte Grande me gusta la tecnología, la música y los deportes, el día de mañana me gustaría poder trabajar y crecer profesionalmente en el mundo IT.</p>
              </div>        
             </div>      
         </div>
    </main>
 
-<!--Formularios-->
+<!--Formularios--><a name="inscripción"></a>
+
   
     <div id="enlace">
-    <p class="Contáctanos">Contáctanos por cualquier duda o información adicional</p>
+    <p class="Contáctanos"><i class='bx bxs-like bx-sm bx-tada'></i>Contáctanos por cualquier duda o información adicional</p>
     <ul>
-      <li class="tins">Formulario de
-      <a href="./forminsc.html"> Inscripción</a></li> 
-      <li class="tcons">Formulario de
-      <a href="./reclamo.html"> Consultas</a></li>
-      <li class="irainicio"><a href="#Arriba">Inicio</a></li>
-    </ul>
-    </div>
+      <li class="tins">Formulario de Inscripción
+        <a href="./forminsc.html"><i class='bx bx-check-circle bx-sm ' style='color:#89ebd1'></i><br></a></li> 
+        <li class="tcons" target="_blank" >Formulario de consultas
+        <a href="./reclamo.html"><i class='bx bx-check-circle bx-sm ' style='color:#89ebd1'></i><br></a></li>
+        <li class="irainicio">Inicio<a href="#Arriba"><i class='bx bx-check-circle bx-sm ' style='color:#89ebd1'></i><br></a></li>
+        </ul>
+        </div>
+
 
  <!-- comienza footer-->
 <footer class="footer">
@@ -231,6 +235,7 @@
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
   <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
   <script src="js\particulas.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 </body>
 </html>

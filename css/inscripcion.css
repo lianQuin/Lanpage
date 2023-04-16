@@ -115,18 +115,10 @@ border: solid 1px #2771e8;
     color: #000000;
     display: inline-table;
  }
-<<<<<<< HEAD
-
- .footer{
-    text-align: center;
-    margin-top: 100px;
-    height: 80px;
-=======
  /*footer*/
 .footer{
     text-align: center;
     margin-top: 100px;
->>>>>>> 1ba00baf94b563db8f08367f3f2b38876e7dc5f6
     background:#0E8388;/*#331ad5;*/
 }
 
@@ -135,10 +127,6 @@ border: solid 1px #2771e8;
     display: flex;
     justify-content: center;
     gap: 30px;
-<<<<<<< HEAD
-    padding: 2%;
-=======
->>>>>>> 1ba00baf94b563db8f08367f3f2b38876e7dc5f6
     background-color: #0E8388;/*#331ad5;*/
    
 }
@@ -149,8 +137,6 @@ border: solid 1px #2771e8;
 .contenedor-icono {
     color: white;
 }
-<<<<<<< HEAD
-=======
 
 .contenedor a:hover{
     transform: scale(1.2);
@@ -161,4 +147,3 @@ border: solid 1px #2771e8;
     color: aliceblue; 
 }
 
->>>>>>> 1ba00baf94b563db8f08367f3f2b38876e7dc5f6
