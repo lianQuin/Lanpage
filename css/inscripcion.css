@@ -35,9 +35,9 @@ a:hover{
     align-items: center;
     color: #2C3333;
 }
-
+/*header de formulario de inscripción*/
 header{
-    background-color: #2771e8;
+    background-color: white;
 }
 
 /*section-cursos*/
@@ -127,7 +127,7 @@ border: solid 1px #2771e8;
     display: flex;
     justify-content: center;
     gap: 30px;
-    background-color: #0E8388;/*#331ad5;*/
+    background-color: #0E8388;/*#331ad5;
    
 }
 .contenedor a{

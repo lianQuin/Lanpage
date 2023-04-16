@@ -5,18 +5,24 @@
     font-family:'arimo'=sans-serif;
 }
 
+/*sí está*/
 body{
     background: #2771e8
 }
+
+/*no está*/
 *particulas*/
 /* ---- reset ---- */
+
+/*sí está espacio entre párrafo inicial */
 {
-margin: 0;;
+margin: 0;
 }
+
 canvas {
 display: block;
 vertical-align: bottom;
-} /* ---- particles.js container ---- */
+}/* ---- particles.js container ---- */
 #particles-js {
 position: absolute;
 width: 100%;
@@ -85,21 +91,26 @@ border-radius: 0 0 3px 3px;
 animation-iteration-count: infinite ;
 }
 /*fin de animación*/
+
+/*color letras de menú principal*/
 a{
     color:#CBE4DE;
     text-decoration: none;
 }
 
-a:hover{
+/*no lo encuentro*/
+/*a:hover{
     background-color: #2771e8;
-}
+}*/ 
 
+/*no lo encuentro*/
 .containerLogo{
     width: 60px;
     height:70px;
     border-radius: 50%;
 }
 
+/*no lo encuentro*/
 .containMain{
     display: flex;
     flex-direction: column;
@@ -107,7 +118,6 @@ a:hover{
     align-items: center;
     color: #2C3333;
 }
-
 header{
     background-color: #2771e8;
 }
@@ -133,12 +143,14 @@ section{
     color:#CBE4DE;/*white*/
     overflow: hidden;
     align-items: center;
-    text-align: center;
+    text-align: center;  
 }
+/*si está*/
 .logo{
     border-radius: 50%;
 }
 
+/*si está*/
 .containernavh1Logo{
     display:flex;
    justify-content: center; 
@@ -157,6 +169,7 @@ section{
     font-size: 2rem;
 }
 
+/*sí está*/
 .unete{
     font-family:'arimo'=sans-serif;
     color: rgb(52, 51, 51);
@@ -164,6 +177,8 @@ section{
     margin-top: 5%;
     font-size: 1.5rem;
 }
+
+/*si está*/
 .registrate{
     font-family:'arimo'=sans-serif;
     color: rgb(52, 51, 51);
@@ -171,13 +186,14 @@ section{
     margin-top: 2%;
     font-size: 1rem;
 }
-
+/*si está*/
 /* estilo del slider*/
 main {
     width: 100%;
     height: 100%;
 }
 
+/*si está*/
 .container__slider {
     height: 90%;
     width: 90%;
@@ -189,6 +205,7 @@ main {
     margin-top: 15%;
 }
 
+/*si está*/
 .slider {
     display: flex;
     width: 300%;
@@ -196,10 +213,12 @@ main {
     margin-left: -100%;
 }
 
+/*si está*/
 .slider__section {
     width: 100%;
 }
 
+/*si está*/
 .slider__img {
     display: block;
     width: 100%;
@@ -207,6 +226,7 @@ main {
     object-fit: scale-down;
 }
 
+/*si está*/
 /*estilo form para index*/
 form {
     display: flex;
@@ -244,6 +264,7 @@ form {
   }
 /*fin de estilo form index*/
 
+/*si está*/
 .formulario{ 
     width: 15%;
     height: 25%;
@@ -275,6 +296,7 @@ width: 100%;
 .animate__animated.animate__backInRight{
 --animate-duration: 4s; 
 }
+
 /*.containerMenu{  
     width: 90%;  
     background:#2771e8;
@@ -284,20 +306,20 @@ width: 100%;
    align-items: center;   
 }*/
 
+/*si está cajas de cursos*/
 .contenedorimg{
     width: 25%;
-    margin: 20px;
-    
+    margin: 20px;  
 }
 
+/*sí está cajas de curso*/
 #htmlimg{
 
     width: 100%;
     transition: 0.5s;
     object-fit: contain;
-    
-
 }
+/*sí está cajas de curso*/
 #htmlimg:hover{
     transform:scale(1.2);
 }
@@ -325,19 +347,20 @@ width: 100%;
     flex-wrap: wrap;
 }
 
-img[src= "/css/imagenes/log/Academia tech.png"]{
+/*no está*/
+/*img[src= "/css/imagenes/log/Academia tech.png"]{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     margin-left: 15px;
     top: 15px;
-    }
+    }*/
 
     
+/*sí está imag nuestras*/
 .data{ width: 300px;
     height: 500px;
-    float: left;
-    
+    float: left;  
 }
 .data img{
    float: left;
@@ -378,6 +401,7 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
     padding-inline-end: 10.8%; 
 }
 
+/*sí está*/
 .irainicio{
     font-family:'arimo'=sans-serif;
     text-align: right;
@@ -387,35 +411,41 @@ img[src= "/css/imagenes/log/Academia tech.png"]{
     padding-inline-end: 10.8%; 
 
 }
+
 /*footer*/
+/*sí está*/
 .footer{
     text-align: center;
     margin-top: 100px;
     background:#0E8388;/*#331ad5;*/
 }
 
-
+/*no lo encuentro*/
 .contfooter {
     display: flex;
     justify-content: center;
     gap: 30px;
-   
 }
+
+/*no lo encuentro*/
 .contenedor a{
     font-size: 25px;
     transition: all ease 300ms;    
-}
+}*/
+
+/*no lo encuentro*/
 .contenedor-icono {
     color: white;
 }
 
+/*no lo encuentro*/
 .contenedor a:hover{
     transform: scale(1.2);
 }
 
+/*no lo encuentro*/
 .h3{
     font-family:'arimo'=sans-serif;
     color: aliceblue;
-
 }
 
