@@ -6,10 +6,16 @@
 }
 
 /*nav bar*/
+.titulo{
+  text-align: left;
+    font-size: 1.5rem;
+    font-family:'arimo'=sans-serif;
+    color:#CBE4DE;
+}
 .principal{
     text-align: center;
     padding-inline-start: 20%;
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     font-family:'arimo'=sans-serif;
     color:#CBE4DE;
 }
@@ -26,8 +32,9 @@ a:hover{
 }
 
 .containerLogo{
-    width: 60px;
-    height:70
+  width: 60px;
+  height:70px;
+  border-radius: 50%;
 }
 
 .containMain{
@@ -38,6 +45,7 @@ a:hover{
     color: #2C3333;
 }
 
+
 .navegation{
   display: flex;
   justify-content: space-around;
@@ -47,11 +55,16 @@ a:hover{
 .containerH1{
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content:left;
+  padding-inline-start: 2.5%;
   color:#CBE4DE;/*white*/
   overflow: hidden;
   align-items: center;
-  text-align: center;
+  text-align: center;  
+}
+
+.logo{
+  border-radius: 50%;
 }
 
 .containernavh1Logo{
