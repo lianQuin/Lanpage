@@ -130,6 +130,9 @@ text-align: center;
 background-color: yellow;
 
 }
+section{
+    background-color: white;
+}
 /*footer*/
 .footer{
     text-align: center;
