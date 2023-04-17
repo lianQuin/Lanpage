@@ -151,6 +151,53 @@ a:hover{
   a{
     text-decoration: none;
   }
+/*prueba agregar enlaces*/
+.data p{
+  font-family:'arimo'=sans-serif;
+  display: flex;
+  float: right;
+  padding: 15px;
+  margin: flex;
+}
+
+/* formularios*/
+.Contáctanos{
+  padding-top: 4%;
+  font-family:'arimo'=sans-serif;
+  text-align: right;
+  color:#333333;
+  font-size: 1.8rem;
+  padding-inline-end: 10%;
+}
+
+.tins{
+  font-family:'arimo'=sans-serif;
+  text-align: right;
+  color: #333333;
+  font-size: 1.5rem;
+  padding-top: 2%;
+  padding-inline-end: 10.8%;
+}
+
+.tcons{
+  font-family:'arimo'=sans-serif;
+  text-align: right;
+  color: #333333;
+  font-size: 1.5rem;
+  padding-top: 3%;
+  padding-inline-end: 10.8%; 
+}
+
+/*sí está*/
+.irainicio{
+  font-family:'arimo'=sans-serif;
+  text-align: right;
+  color: #333333;
+  font-size: 1.5rem;
+  padding-top: 3%;
+  padding-inline-end: 10.8%; 
+
+}
 
   .footer{
     text-align: center;
