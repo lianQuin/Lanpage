@@ -157,6 +157,7 @@ section{
     width: 100%;
     height: 70px;
     background-color:#0E8388; /*#331ad5;*/
+    position: fixed;
 }
 
 .home{

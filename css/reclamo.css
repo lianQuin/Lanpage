@@ -1,10 +1,11 @@
+
 *{
     text-align: start;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }  
-principal{
+.principal{
     text-align: center;
     padding-inline-start: 20%;
     font-size: 1.5rem;
@@ -19,15 +20,24 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    background-color: #2771e8;
+/*a:hover{
+    background-color: #0f9fa4;
 }
 
-.containerLogo{
+/*.containerLogo{
     width: 60px;
-    height:70
+    height:70px
+}*/
+/*.containerLogo{
+    width: 93px;
+    height:70px;
+    border-radius: 50%;
+  }*/
+  .containerLogo{
+    width: 60px;
+    height:70px;
+    border-radius: 50%;
 }
-
 .containMain{
     display: flex;
     flex-direction: column;
@@ -144,3 +154,44 @@ background-color: yellow;
     font-family:'arimo'=sans-serif;
     color: aliceblue; 
 }
+section{
+    background-color: white;
+}
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    background:#0E8388;/*#331ad5;*/
+}
+
+/*no lo encuentro*/
+.contfooter {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*no lo encuentro*/
+.contenedor a{
+    font-size: 25px;
+    transition: all ease 300ms;    
+}*/
+
+/*no lo encuentro*/
+.contenedor-icono {
+    color: white;
+}
+
+/*no lo encuentro*/
+.contenedor a:hover{
+    transform: scale(1.2);
+}
+
+/*no lo encuentro*/
+.h3footer{
+    font-family:'arimo'=sans-serif;
+    color: aliceblue;
+}
+
+
+
+
