@@ -44,50 +44,50 @@ crossorigin="anonymous">
 
 
 
-<h2>Formulario de Reclamo</h2><br>
-<h3>Datos personales</h3> 
+<h2>Formulario de consulta</h2><br>
 
-    <form action="" name="formulario" method="get" > 
-        <div class="campo">
-            <label for="nombre">Nombre</label>
-            <input type="text" name=" nombre" id="nombre" maxlength="30"
+    <form id="step-1" > 
+        
+            <label for="name">Nombre</label>
+            <input type="text" id="name" maxlength="30"
             placeholder="Tu nombre" required> <br><br>
             <label for="lastname">Apellido:</label>
             <input size="30" type="text" name="lastname" placeholder="Ingrese su apellido aquí..."required>
             <br><br>
             <label for="teléfono">Teléfono: </label>
-            <input type="tel" name="teléfono" placeholder="Ingrese su teléfono aquí ...."required>
+            <input type="tel" id="teléfono" placeholder="Ingrese su teléfono aquí ...."required>
             <br><br>
-        </div>
+    
         <p>Género :<br>
                 <input type="radio" name="gender" value="hombre" checked>Hombre
                 <input type="radio" name="gender" value="Mujer" checked>Mujer
                 <input type="radio" name="gender" value="NB" checked>No Binario
                 <br><br>
             </p>
-        <div class="campo">
+        
             <label for="email">Email</label>
             <input type="email" name="email" id="email"
             placeholder="Tu correo electrónico" required><br>
-        </div>
+        
         <br><br>
         <div class="alert alert-danger" role="alert">
-            Escribe aquí tu reclamo* <a target="_blank" href="https://api.whatsapp.com/send?
+            Escribe aquí tu consulta* <a target="_blank" href="https://api.whatsapp.com/send?
             phone=5493834479734&text=Hola!%20AbraNet!" class="alert-link"> o Escríbenos por whatsapp</a>
         </div>
         <br>
-        <label for="Reclamo">*Reclamo:</label><br> <textarea name="Reclamo" rows="3" cols="30"></textarea>
+        <label for="consulta">*consulta:</label><br> <textarea name="consulta" rows="3" cols="30"></textarea>
         <br><br>
-        <div class="campo-enviar">
-            <input type="submit" id="btn" name="btn" value="Enviar">
-            <button type="reset"  class="btn btn-danger">Borrar</button>
-
-
-        </div><br>
-
-        <a href="archivo.pdf" target="_blank">Abrir PDF</a><br>
-    </fieldset> 
+        
+        <button type="button" id="next-btn">enviar</button>
     </form>
+
+    <form id="step-2">
+        <p>Gracias por comunicarte con nosotros...</p><i class='bx bxs-like bx-sm bx-tada'></i>
+        <div id="summary"></div>
+        <P><strong> Te contactaremos a la brevedad!!</strong></P><i class='bx bxs-like bx-sm bx-tada'></i>
+      </form>
+      <script src="js\validación.js"></script>
+
 </main> 
  <section>
 
@@ -126,7 +126,6 @@ crossorigin="anonymous">
   </div>
   &copy; <b>Academia Tech todos los derechos reservados 2023</b>
 </footer>
- 
-<script  src="./js/appform.js"></script>                                                                                      
+                                                                                       
 </body>
 </html>

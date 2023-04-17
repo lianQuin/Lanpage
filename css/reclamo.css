@@ -118,9 +118,11 @@ h2{
     color:black;
     text-align: left;
 }
+#step-1{
+    display: block;
+}
 
-
-#btn{
+ button[type="button"] {
 width:15% ;
 height: 20%;
 font-size: 22px;
@@ -133,6 +135,17 @@ background-color: yellow;
 section{
     background-color: white;
 }
+
+#step-2 {
+    display: none;
+  }
+  
+#summary {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+
 /*footer*/
 .footer{
     text-align: center;
