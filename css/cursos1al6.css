@@ -9,7 +9,7 @@
 .principal{
     text-align: center;
     padding-inline-start: 20%;
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     font-family:'arimo'=sans-serif;
     color:#CBE4DE;
 }
@@ -38,6 +38,7 @@ a:hover{
     align-items: center;
     color: #2C3333;
 }
+
 
 .navegation{
   display: flex;
