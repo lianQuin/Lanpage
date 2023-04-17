@@ -97,11 +97,22 @@
       
       <!--form contacto-->
 </div> 
-    <form>
-      <label for="email">Ingresa tu correo electrónico para recibir más información:</label>
-      <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com">
-      <button type="submit">Enviar</button>
-    </form>
+<form id="step-1">
+  <label for="name">Nombre:</label>
+  <input type="text" id="name" name="name" required>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  
+  <button type="button" id="next-btn">más información</button>
+</form>
+
+<form id="step-2">
+  <p>Gracias por comunicarte con nosotros...</p><i class='bx bxs-like bx-sm bx-tada'></i>
+  <div id="summary"></div>
+  <P><strong> Te contactaremos a la brevedad!!</strong></P><i class='bx bxs-like bx-sm bx-tada'></i>
+</form>
+<script src="js\validación.js"></script>
 
 <!--fin form contacto-->
 
@@ -237,7 +248,7 @@
     </div>
     &copy; <b>Academia Tech todos los derechos reservados 2023</b>
   </footer>
-
+ 
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
   <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
   <script src="js\particulas.js"></script>
