@@ -285,7 +285,6 @@ background-color: yellow;
     gap: 30px;
     background-color: #0E8388;/*#331ad5;*/
     
-   
 }
 .contenedor a{
     font-size: 25px;
@@ -302,6 +301,8 @@ background-color: yellow;
 .h3{
     font-family:'arimo'=sans-serif;
     color: aliceblue; 
+    font-size: 15px;
+    color: white !important;
 }
 section{
     background-color: white;

@@ -163,6 +163,7 @@ section{
 .h3{
     font-family:'arimo'=sans-serif;
     color: aliceblue; 
+    font-size: 15px;
 }
 section{
     background-color: white;
@@ -200,6 +201,9 @@ section{
 .h3footer{
     font-family:'arimo'=sans-serif;
     color: aliceblue;
+    font-size: 20px;
+    color: white !important;
+    text-decoration: none;
 }
 
 
